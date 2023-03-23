@@ -11,8 +11,7 @@ app.use(express.static('public'));
 app.use(express.json());
 app.use(cookieParser());
 
-// view engine
-app.set('view engine', 'ejs');
+
 
 // database connection
 const dbURI = 'mongodb+srv://worker:lXMcCnzLWjHrLWaL@vchat.i3f2sus.mongodb.net/?retryWrites=true&w=majority';
